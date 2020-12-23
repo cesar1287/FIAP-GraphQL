@@ -1,0 +1,27 @@
+{
+    "produtos":[
+        {
+            "id": 1,
+            "nomeproduto": "Mouse",
+            "descricao": "Mouse sem fio",
+            "fornecedor": "fo-101",
+            "preco": "150.21",
+            "datacadastro": "14/12/2020"
+        },
+        {
+            "id": 2,
+            "nomeproduto": "Teclado",
+            "descricao": "Teclado sem fio",
+            "fornecedor": "fo-101",
+            "preco": "100.00",
+            "datacadastro": "14/12/2020"
+        },
+        {
+            "id": 3,
+            "nomeproduto": "Monitor",
+            "descricao": "Monitor 27 polegadas",
+            "fornecedor": "fo-102",
+            "preco": "950.90",
+            "datacadastro": "14/12/2020"
+        }
+]}

@@ -1,7 +1,6 @@
 {
   "name": "fiapfirebasegraphql",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +9,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "apollo-server-express": "^2.19.0",
+    "apollo": "^2.32.0",
+    "apollo-server-express": "^2.19.1",
     "express": "^4.17.1",
-    "graphql": "^15.4.0"
-  }
+    "graphql": "^15.4.0",
+    "graphql-import": "^1.0.2",
+    "graphql-tools": "^7.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesar1287/FIAP-GraphQL.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cesar1287/FIAP-GraphQL/issues"
+  },
+  "homepage": "https://github.com/cesar1287/FIAP-GraphQL#readme",
+  "description": ""
 }

@@ -1,0 +1,21 @@
+type Mutation {
+  novoProduto(
+    id: Int
+    nomeproduto: String
+    descricao: String
+    fornecedor: String
+    preco: Float
+    datacadastro: String
+  ): [Produto]
+
+  deletarProduto(id: Int): Produto
+
+  alteraProduto(
+    id: Int
+    nomeproduto: String
+    descricao: String
+    fornecedor: String
+    preco: Float
+    datacadastro: String
+  ): Produto
+}
